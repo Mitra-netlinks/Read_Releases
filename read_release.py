@@ -7,6 +7,7 @@ from github import BadCredentialsException
 username = input("Github username: ")
 password = getpass.getpass(prompt='Github password: ')
 repo_name = input("Repository name: ")
+release_name = input('Release name: ')
 
 url = str(username+'/'+repo_name)
 
